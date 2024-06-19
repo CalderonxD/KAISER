@@ -46,6 +46,7 @@ main{
     width: 100%;
     /* background-color: blue; */
     padding-top: 10%;
+    animation: logo 1s infinite ;
 }
 
 .titulo img{
@@ -128,6 +129,21 @@ main{
 .contenedor_productos div{
     background-color: white;
     border-radius: 40px 40px 20px 20px;
+}
+
+@keyframes logo {
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.2;
+    }
+
+    100%{
+        scale: 1; 
+    }
+    
 }
 
 .producto_1{
