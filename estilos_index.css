@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+}
+
+.barra_lateral{
+    display: flex;
+    width: 20%;
+    height: 100vh;
+    /* background-color: gray; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.ir_todos_los_productos{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#ir_todos_los_productos{
+    background-color: black;
+    width: 100%;
+    border-radius: 20px 00px 0px 20px;
+    text-align: center;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 10%;
+}
+
+.titulo img{
+    height: 100%;
+}
+
+.contenedor_opciones{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.contenedor_opciones ul{ 
+    li{
+        padding-block: 20px;
+    }
+}
+
+.contenedor_carrito{
+    height: 25%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+}
+
+.icono_carrito{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.copyright{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_productos{
+    height: 90vh;
+    width: 80%;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_texto{
+    color: white;
+    font-size: 10px;
+    align-self: flex-start;
+    padding-left: 2%;
+    font-size: 20px;
+    width: 90%;
+    height: 10%;
+}
+
+
+.contenedor_productos{
+    height: 80%;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,50%);
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+.contenedor_productos div{
+    background-color: white;
+    border-radius: 40px 40px 20px 20px;
+}
+
+.producto_1{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.caja_precio_carrito{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(180, 177, 177) !important;
+}
+
+.caja_precio_carrito a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.producto_2{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_904140-MCO51843801912_102022-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_3{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_930447-MCO71410142210_092023-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_4{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_712593-MCO41606376126_052020-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_5{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_829630-MCO31080337339_062019-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_6{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_906094-MCO53976036500_022023-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.producto_7{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_649847-MCO43854241255_102020-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.producto_8{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_995623-MCO70722158553_072023-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_9{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_776916-MCO72088562654_102023-F.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_10{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_968038-MCO53410409233_012023-F.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_11{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_731406-MCO42646277112_072020-F.webp);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_12{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_795748-MCO70527773883_072023-F.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_13{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_758206-MCO70501309390_072023-F.webp);
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_14{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_947436-MCO69626235546_052023-F.webp);
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.producto_15{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_618657-MCO69523195685_052023-F.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.descripcion{
+    background-color: rgb(180, 177, 177) !important;
+    padding-top: 20px;
+    border-radius: 0% !important;
+    height: 30%;
+    text-align: center;
+}
+
